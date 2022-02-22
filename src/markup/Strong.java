@@ -2,7 +2,7 @@ package markup;
 
 import java.util.List;
 
-class Strong extends MarkUp implements BBCodeInterface {
+class Strong extends MarkUp implements BBCodeInterface {    //class for strong emphasis
     private static final String TAG = "b";
     private static final String MARK = "__";
 

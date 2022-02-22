@@ -2,7 +2,7 @@ package markup;
 
 import java.util.List;
 
-public class ListItem {
+public class ListItem {     //item of the list class
     private static final String TAG = "[*]";
     private final List<ListItemInterface> list;
 

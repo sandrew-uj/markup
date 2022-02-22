@@ -1,6 +1,6 @@
 package markup;
 
-public class Text implements BBCodeInterface {
+public class Text implements BBCodeInterface {  //class for text storing
     String text;
     public Text (String text) {
         this.text = text;

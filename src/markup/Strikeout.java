@@ -2,7 +2,7 @@ package markup;
 
 import java.util.List;
 
-class Strikeout extends MarkUp implements BBCodeInterface {
+class Strikeout extends MarkUp implements BBCodeInterface {     //class for strikeout
     private static final String TAG = "s";
     private static final String MARK = "~";
 

@@ -2,7 +2,7 @@ package markup;
 
 import java.util.List;
 
-public abstract class MarkUp {
+public abstract class MarkUp {      //abstract class with toBBCode() and toMarkdown() methods
     protected List<BBCodeInterface> list;
 
     protected MarkUp(List<BBCodeInterface> list) {

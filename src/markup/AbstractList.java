@@ -2,7 +2,7 @@ package markup;
 
 import java.util.List;
 
-public abstract class AbstractList implements ListItemInterface{
+public abstract class AbstractList implements ListItemInterface {   //abstract class for lists
     protected List<ListItem> list;
 
     protected AbstractList(List<ListItem> list) {
